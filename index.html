@@ -1,4 +1,4 @@
-<!doctype html><html lang="es-MX"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#faf9f6"><title>Ticketo · Facturas de caja chica por WhatsApp</title><link rel="canonical" href="https://ticketo.tech/"><meta property="og:url" content="https://ticketo.tech/"><meta property="og:title" content="Ticketo · Facturas de caja chica por WhatsApp"><meta property="og:description" content="Mandas foto del ticket, te regresa la factura. $2,000 al mes, tickets ilimitados."><meta property="og:type" content="website"><meta name="description" content="Mandas foto del ticket, te regresa la factura. Facturación de caja chica para empresas en Tampico y León.">
+<!doctype html><html lang="es-MX"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#faf9f6"><title>Ticketo · Facturas de caja chica por WhatsApp</title><link rel="canonical" href="https://ticketo.tech/"><meta property="og:url" content="https://ticketo.tech/"><meta property="og:title" content="Ticketo · Facturas de caja chica por WhatsApp"><meta property="og:description" content="Mandas foto del ticket, te regresa la factura. Plan Básico $900/mes (30 tickets) o Empresa $2,000/mes con tickets ilimitados."><meta property="og:type" content="website"><meta name="description" content="Mandas foto del ticket, te regresa la factura. Plan Básico $900/mes (30 tickets) o Empresa $2,000/mes con tickets ilimitados.">
 <script>document.documentElement.className="js"</script>
 <style>
 :root{--ink:#0e1013;--ink2:#2a2e35;--mut:#5b616b;--line:#e4e1da;--bg:#faf9f6;--card:#fff;--acc:#0f5132;--acc2:#e8f1ec;--ease:cubic-bezier(.2,.7,.2,1);--serif:Georgia,"Times New Roman",serif}
@@ -101,7 +101,8 @@ section{padding:clamp(64px,10vw,128px) 0;border-top:1px solid var(--line)}
 .pbox{grid-column:1/-1;position:relative;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:clamp(26px,3.4vw,44px);overflow:hidden;box-shadow:0 24px 40px -32px rgba(14,16,19,.35)}
 .pbox:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:var(--acc)}
 .trial{grid-column:1/-1;background:var(--acc2);border-radius:14px;padding:clamp(26px,3.4vw,40px)}
-@media(min-width:900px){.pbox{grid-column:1/8}.trial{grid-column:8/-1}}
+@media(min-width:900px){.pbox.basic{grid-column:1/6}.pbox.rec{grid-column:6/-1}}
+.pbox.basic:before{background:var(--line)}.pbox.rec{border:2px solid var(--acc)}.pl{font-weight:700;font-size:15px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px;display:flex;gap:10px;align-items:center}.tag{background:var(--acc);color:#fff;font-size:11px;padding:4px 9px;border-radius:99px;letter-spacing:.04em}.pbox .btn{width:100%;text-align:center}.pbox .btn.ghost{background:transparent;color:var(--acc);box-shadow:inset 0 0 0 1.5px var(--acc)}
 .amt{font-family:var(--serif);font-size:clamp(56px,8vw,88px);font-weight:400;letter-spacing:-.04em;line-height:1}.amt small{font-family:Helvetica,Arial,sans-serif;font-size:16px;color:var(--mut);letter-spacing:0}
 ul.ck{list-style:none;margin:28px 0 30px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));column-gap:28px}
 ul.ck li{padding:11px 0 11px 28px;border-top:1px solid var(--line);position:relative;font-size:16px}
@@ -219,10 +220,13 @@ footer .w{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 </div><p class="note rv" style="margin-top:28px">Atendemos empresas en Tampico, León y el resto de México.</p></div></section>
 
 <section id="precio"><div class="w"><h2 class="rv">Precio</h2><div class="g12 price">
-<div class="pbox rv"><div class="amt">$2,000 <small>MXN al mes</small></div>
-<ul class="ck"><li><b>Tickets ilimitados</b></li><li>CFDI 4.0 en PDF y XML</li><li>Un grupo de WhatsApp para todo el equipo</li><li>Caja chica por persona en Google Sheets</li><li>Envío semanal a tu contadora</li><li>Aviso de tickets no facturables</li><li>Hasta 2 razones sociales</li><li>Sin contrato, cancelas cuando quieras</li></ul>
-<a class="btn" href="https://wa.me/528331740983?text=Hola%2C%20me%20interesa%20el%20plan%20de%20%242%2C000%20de%20facturas%20de%20caja%20chica">Contratar por WhatsApp</a></div>
-<div class="trial rv" style="--d:.1s"><h3>Primera semana gratis</h3><p>Mándanos los tickets de una semana y te regresamos todas las facturas. Si te sirve, sigues. Si no, no pagas nada.</p><p class="note">Precio más IVA si requieres factura del servicio.</p></div>
+<div class="pbox basic rv"><div class="pl">Básico</div><div class="amt">$900 <small>MXN al mes</small></div>
+<ul class="ck"><li><b>Hasta 30 tickets al mes</b></li><li>1 razón social</li><li>Factura CFDI 4.0 en PDF y XML</li><li>Caja chica en Google Sheets</li><li>Factura en menos de 48 h hábiles</li><li>Aviso de tickets no facturables</li><li>Sin contrato, más IVA</li></ul>
+<a class="btn ghost" href="https://wa.me/528331740983?text=Hola%2C%20me%20interesa%20el%20plan%20B%C3%A1sico%20de%20Ticketo%20%28%24900%20al%20mes%29.%20Quiero%20probar%20la%20semana%20gratis.">Elegir Básico</a></div>
+<div class="pbox rec rv" style="--d:.08s"><div class="pl">Empresa <span class="tag">Recomendado</span></div><div class="amt">$2,000 <small>MXN al mes</small></div>
+<ul class="ck"><li><b>Tickets ilimitados</b></li><li>Hasta 2 razones sociales</li><li>Un grupo de WhatsApp para todo el equipo</li><li>Caja chica por persona en Google Sheets</li><li>Envío semanal a tu contadora</li><li>Factura en menos de 48 h hábiles</li><li>Aviso de tickets no facturables</li><li>Sin contrato, más IVA</li></ul>
+<a class="btn" href="https://wa.me/528331740983?text=Hola%2C%20me%20interesa%20el%20plan%20Empresa%20de%20Ticketo%20%28%242%2C000%20al%20mes%29.%20Quiero%20probar%20la%20semana%20gratis.">Elegir Empresa</a></div>
+<div class="trial rv" style="--d:.1s"><h3>Primera semana gratis en ambos planes</h3><p>Mándanos los tickets de una semana y te regresamos todas las facturas. Si te sirve, sigues. Si no, no pagas nada.</p><p class="note">Precio más IVA si requieres factura del servicio.</p></div>
 </div></div></section>
 
 <section id="faq"><div class="w"><div class="g12"><div class="faq-h rv"><h2>Preguntas frecuentes</h2></div><div class="faq rv">
@@ -232,7 +236,7 @@ footer .w{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 <details><summary>¿Qué tan seguros están mis datos fiscales?</summary><p>Solo pedimos lo que ya va impreso en cualquier factura: RFC, razón social, régimen, código postal y uso de CFDI. Nunca pedimos tu e.firma, tu contraseña del SAT ni datos bancarios. Tus datos se usan solo para facturar tus tickets.</p></details>
 <details><summary>¿Y si el ticket ya está vencido?</summary><p>Cada comercio tiene su plazo; muchos solo dejan facturar en el mismo mes. Si llega vencido te avisamos. Por eso conviene mandarlos el mismo día que se generan.</p></details>
 <details><summary>¿Cuánto tardan?</summary><p>Normalmente menos de 48 horas hábiles. Algunos comercios tardan más en liberar la factura; en esos casos te avisamos.</p></details>
-<details><summary>¿Hay límite de tickets?</summary><p>No. Son $2,000 al mes con tickets ilimitados, para hasta 2 razones sociales.</p></details><details><summary>¿Qué pasa si un comercio no deja facturar?</summary><p>Te lo decimos con el motivo (ticket ilegible, sin datos de facturación, comercio que no factura) para que no lo esperes.</p></details>
+<details><summary>¿Hay límite de tickets?</summary><p>En Empresa no: tickets ilimitados para hasta 2 razones sociales. En Básico son hasta 30 tickets al mes con 1 razón social.</p></details><details><summary>¿Qué pasa si paso de 30 tickets en Básico?</summary><p>Te avisamos antes de seguir y puedes subir a Empresa ese mismo mes. Nada se cobra sin que lo autorices.</p></details><details><summary>¿Qué pasa si un comercio no deja facturar?</summary><p>Te lo decimos con el motivo (ticket ilegible, sin datos de facturación, comercio que no factura) para que no lo esperes.</p></details>
 <details><summary>¿Tengo que cambiar algo en mi empresa?</summary><p>No. Tu equipo sigue pagando igual; nada más manda foto del ticket al grupo de WhatsApp.</p></details>
 <details><summary>¿Cómo pago?</summary><p>Transferencia mensual. Sin contrato ni plazo forzoso.</p></details>
 </div></div></div></section>
