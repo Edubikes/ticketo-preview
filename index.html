@@ -21,23 +21,45 @@ details{border-bottom:1px solid var(--line);padding:18px 0}summary{font-weight:7
 .cta{text-align:center;padding:72px 0}.cta p{color:var(--mut);margin:12px 0 26px}
 footer{border-top:1px solid var(--line);padding:26px 0;font-size:14px;color:var(--mut)}
 .fab{position:fixed;right:16px;bottom:16px;box-shadow:0 6px 20px rgba(0,0,0,.18)}@media(min-width:900px){.fab{display:none}}
+.demo{display:grid;gap:22px;grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}
+.wa{background:#efeae2;border-radius:12px;overflow:hidden;border:1px solid var(--line)}.wah{background:#075e54;color:#fff;padding:12px 16px;font-weight:700;font-size:15px}.wah small{display:block;font-weight:400;opacity:.8;font-size:12px}
+.wab{padding:14px;display:flex;flex-direction:column;gap:8px}.msg{background:#fff;border-radius:8px;padding:8px 10px;max-width:82%;font-size:14px;box-shadow:0 1px 0 rgba(0,0,0,.08)}.msg b{display:block;font-size:12px}.msg i{display:block;background:#d9d4cc;height:56px;border-radius:5px;margin:5px 0;font-style:normal;font-size:12px;color:#555;padding:6px}.me{align-self:flex-end;background:#d9fdd3}
+.c1{color:#c2410c}.c2{color:#1d4ed8}.c3{color:#7e22ce}
+.sh{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:13px}.shh{background:#0f9d58;color:#fff;padding:12px 16px;font-weight:700;font-size:15px}
+.tabs{display:flex;border-top:1px solid var(--line);background:#f1f3f4}.tabs span{padding:8px 12px;font-size:12px}.tabs .on{background:#fff;font-weight:700;color:#0f9d58}
+.sh table{width:100%;border-collapse:collapse}.sh th,.sh td{border:1px solid #e6e6e6;padding:7px 8px;text-align:left}.sh th{background:#f8f9fa;font-size:12px}.ok{color:#0f5132;font-weight:700}.pe{color:#b45309;font-weight:700}.lk{color:#1a73e8;text-decoration:underline}
+.pts{margin-top:26px}.pts li{margin:8px 0 8px 20px}
 </style></head><body>
 <header><div class="w"><div class="logo">Ticket<span>o</span></div><a class="btn sm" href="https://wa.me/528331740983?text=Hola%2C%20quiero%20probar%20la%20semana%20gratis%20de%20facturas%20de%20caja%20chica">Probar gratis</a></div></header>
 <main>
 <div class="w hero"><h1>Mandas foto del ticket.<br>Te regresa la factura.</h1>
-<p>Facturamos los tickets de caja chica de tu empresa: gasolina, comidas, ferretería y casetas. Tú solo los mandas por WhatsApp y te llega el PDF y el XML.</p>
+<p>Todo tu equipo manda sus tickets a <b>un solo grupo de WhatsApp</b>. Sabemos de quién es cada foto, le llevamos su propia caja chica en Google Sheets y se la mandamos a tu contadora cada semana.</p>
 <a class="btn" href="https://wa.me/528331740983?text=Hola%2C%20quiero%20probar%20la%20semana%20gratis%20de%20facturas%20de%20caja%20chica">Pruébalo una semana gratis</a>
 <div class="note">Sin contrato. Lo usamos en una constructora antes de ofrecerlo.</div></div>
 
 <section><div class="w"><h2>Cómo funciona</h2><div class="g3">
 <div class="card"><b class="n">PASO 1</b><h3>Nos pasas tus datos fiscales una vez</h3><p>RFC, razón social, régimen, código postal y correo. No te los volvemos a pedir.</p></div>
-<div class="card"><b class="n">PASO 2</b><h3>Tu equipo manda foto del ticket</h3><p>Al chat o grupo de WhatsApp. El chofer, el residente de obra o quien traiga el ticket.</p></div>
-<div class="card"><b class="n">PASO 3</b><h3>Te llega la factura</h3><p>PDF y XML en el mismo chat y en tu correo, normalmente en menos de 48 horas hábiles.</p></div>
+<div class="card"><b class="n">PASO 2</b><h3>Todos mandan foto al mismo grupo</h3><p>Un solo grupo de WhatsApp para todo el equipo: choferes, residentes, técnicos. Cada quien manda sus tickets ahí.</p></div>
+<div class="card"><b class="n">PASO 3</b><h3>Cada quien tiene su caja chica</h3><p>Sabemos quién mandó cada ticket. Su factura (PDF y XML) queda en su hoja de Google Sheets y se le manda a tu contadora cada semana o cuando la pidas.</p></div>
 </div></div></section>
+
+<section id="equipo"><div class="w"><h2>Un grupo para todo el equipo.<br>Una caja chica por persona.</h2><div class="demo">
+<div class="wa"><div class="wah">Tickets · Constructora<small>Juan, Lupita, Carlos, Tú</small></div><div class="wab">
+<div class="msg"><b class="c1">Juan (residente)</b><i>📷 Ticket gasolina</i>$850.00</div>
+<div class="msg"><b class="c2">Lupita (compras)</b><i>📷 Ticket ferretería</i>$1,240.50</div>
+<div class="msg"><b class="c3">Carlos (chofer)</b><i>📷 Ticket comida</i>$315.00</div>
+<div class="msg me">✓ Facturado: gasolina de Juan. PDF y XML en su hoja.</div></div></div>
+<div class="sh"><div class="shh">Caja chica · Juan · Semana 41</div><div style="overflow-x:auto"><table><tr><th>Fecha</th><th>Comercio</th><th>Monto</th><th>Factura</th><th>Estatus</th></tr>
+<tr><td>07/10</td><td>Gasolinera</td><td>$850.00</td><td><span class="lk">PDF</span> · <span class="lk">XML</span></td><td class="ok">Facturado</td></tr>
+<tr><td>08/10</td><td>Restaurante</td><td>$420.00</td><td><span class="lk">PDF</span> · <span class="lk">XML</span></td><td class="ok">Facturado</td></tr>
+<tr><td>09/10</td><td>Caseta</td><td>$156.00</td><td>—</td><td class="pe">En proceso</td></tr>
+<tr><td colspan="2"><b>Total</b></td><td><b>$1,426.00</b></td><td colspan="2">Enviado a contadora: viernes</td></tr></table></div>
+<div class="tabs"><span class="on">Juan</span><span>Lupita</span><span>Carlos</span><span>Resumen</span></div></div>
+</div><ul class="pts"><li><b>Un solo grupo de WhatsApp.</b> Nadie tiene que aprender nada nuevo.</li><li><b>Sabemos quién mandó cada ticket.</b> La caja chica de cada persona va por separado.</li><li><b>Google Sheets por persona</b> con fecha, comercio, monto, factura PDF/XML y estatus.</li><li><b>Directo a tu contadora</b> cada semana, o cuando la pidas.</li></ul></div></section>
 
 <section><div class="w"><h2>Qué recibes</h2><div class="g3">
 <div class="card"><h3>Factura CFDI 4.0</h3><p>PDF y XML timbrados a nombre de tu empresa, listos para tu contador.</p></div>
-<div class="card"><h3>Resumen semanal en Excel</h3><p>Cada ticket con fecha, comercio, importe, IVA y folio fiscal. Cuadras la caja chica en minutos.</p></div>
+<div class="card"><h3>Caja chica por persona en Google Sheets</h3><p>Fecha, comercio, monto, factura PDF/XML ligada y estatus. Se manda a tu contadora cada semana o cuando quieras.</p></div>
 <div class="card"><h3>Aviso de tickets que no se pueden facturar</h3><p>Si un ticket ya venció o el comercio no factura, te avisamos el mismo día para que no lo esperes.</p></div>
 </div></div></section>
 
@@ -50,17 +72,20 @@ footer{border-top:1px solid var(--line);padding:26px 0;font-size:14px;color:var(
 
 <section id="precio"><div class="w"><h2>Precio</h2><div class="price">
 <div class="pbox"><div class="amt">$2,000 <small>MXN al mes</small></div>
-<ul class="ck"><li>Hasta 80 tickets al mes</li><li>Ticket adicional: $25</li><li>CFDI 4.0 en PDF y XML</li><li>Resumen semanal en Excel</li><li>Aviso de tickets no facturables</li><li>Hasta 2 razones sociales</li><li>Sin contrato, cancelas cuando quieras</li></ul>
+<ul class="ck"><li>Hasta 80 tickets al mes</li><li>Ticket adicional: $25</li><li>CFDI 4.0 en PDF y XML</li><li>Un grupo de WhatsApp para todo el equipo</li><li>Caja chica por persona en Google Sheets</li><li>Envío semanal a tu contadora</li><li>Aviso de tickets no facturables</li><li>Hasta 2 razones sociales</li><li>Sin contrato, cancelas cuando quieras</li></ul>
 <a class="btn" href="https://wa.me/528331740983?text=Hola%2C%20me%20interesa%20el%20plan%20de%20%242%2C000%20de%20facturas%20de%20caja%20chica">Contratar por WhatsApp</a></div>
 <div class="trial"><h3 style="font-size:22px;margin-bottom:10px">Primera semana gratis</h3><p>Mándanos los tickets de una semana y te regresamos todas las facturas. Si te sirve, sigues. Si no, no pagas nada.</p><p class="note">Precio más IVA si requieres factura del servicio.</p></div>
 </div></div></section>
 
 <section><div class="w"><h2>Preguntas frecuentes</h2>
+<details><summary>¿Y si varios mandan al mismo grupo?</summary><p>Esa es la idea. Sabemos quién mandó cada foto y cada ticket se va a la caja chica de esa persona. No se revuelven.</p></details>
+<details><summary>¿Mi contadora necesita algo?</summary><p>No. Solo su correo. Le llega cada semana la hoja de cada persona con las facturas en PDF y XML ligadas. No tiene que instalar nada ni entrar a ningún lado.</p></details>
+<details><summary>¿Puedo pedir la caja chica antes del viernes?</summary><p>Sí. La pides en el grupo y te la mandamos a ti o a tu contadora ese mismo día.</p></details>
 <details><summary>¿Qué tan seguros están mis datos fiscales?</summary><p>Solo pedimos lo que ya va impreso en cualquier factura: RFC, razón social, régimen, código postal y uso de CFDI. Nunca pedimos tu e.firma, tu contraseña del SAT ni datos bancarios. Tus datos se usan solo para facturar tus tickets.</p></details>
 <details><summary>¿Y si el ticket ya está vencido?</summary><p>Cada comercio tiene su plazo; muchos solo dejan facturar en el mismo mes. Si llega vencido te avisamos. Por eso conviene mandarlos el mismo día que se generan.</p></details>
 <details><summary>¿Cuánto tardan?</summary><p>Normalmente menos de 48 horas hábiles. Algunos comercios tardan más en liberar la factura; en esos casos te avisamos.</p></details>
 <details><summary>¿Qué pasa si un comercio no deja facturar?</summary><p>Te lo decimos con el motivo (ticket ilegible, sin datos de facturación, comercio que no factura) y no cuenta en tus tickets del mes.</p></details>
-<details><summary>¿Tengo que cambiar algo en mi empresa?</summary><p>No. Tu equipo sigue pagando igual; nada más manda foto del ticket al WhatsApp.</p></details>
+<details><summary>¿Tengo que cambiar algo en mi empresa?</summary><p>No. Tu equipo sigue pagando igual; nada más manda foto del ticket al grupo de WhatsApp.</p></details>
 <details><summary>¿Cómo pago?</summary><p>Transferencia mensual. Sin contrato ni plazo forzoso.</p></details>
 </div></section>
 
