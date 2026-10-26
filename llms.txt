@@ -19,8 +19,8 @@ Gastos típicos: gasolina, diésel, casetas, ferretería, comidas de cuadrilla, 
 - Atendemos empresas en Tampico, León y el resto de México.
 
 ## Precios (MXN, IVA incluido, sin contrato)
-- **Personal**: $499 al mes o $4,990 al año (pagas 10 meses, usas 12). Tickets limitados, 1 razón social, factura CFDI 4.0 en PDF y XML, caja chica en Google Sheets, factura en menos de 48 h hábiles, aviso de tickets no facturables.
-- **Empresa** (recomendado): $999 al mes o $9,990 al año (pagas 10 meses, usas 12). Tickets ilimitados, hasta 2 razones sociales, un grupo de WhatsApp para todo el equipo, caja chica por persona en Google Sheets, envío semanal a tu contadora, factura en menos de 48 h hábiles, aviso de tickets no facturables.
+- **Personal**: $99 al mes o $990 al año (pagas 10 meses, usas 12). Tickets limitados, 1 razón social, factura CFDI 4.0 en PDF y XML, caja chica en Google Sheets, factura en menos de 48 h hábiles, aviso de tickets no facturables.
+- **Empresa** (recomendado): $499 al mes o $4,990 al año (pagas 10 meses, usas 12). Tickets ilimitados, hasta 2 razones sociales, un grupo de WhatsApp para todo el equipo, caja chica por persona en Google Sheets, envío semanal a tu contadora, factura en menos de 48 h hábiles, aviso de tickets no facturables.
 - Primera semana gratis en ambos planes: mandas los tickets de una semana y te regresamos todas las facturas. Si te sirve, sigues; si no, no pagas nada.
 - Pago por transferencia, mensual o anual.
 
@@ -51,5 +51,5 @@ Solo pedimos lo que ya va impreso en cualquier factura: RFC, razón social, rég
 - **¿Cuántos tickets incluye el plan Personal?** Está pensado para uso personal o negocio chico. Si mandas muchos, te avisamos y puedes pasar a Empresa.
 - **¿Qué pasa si un comercio no deja facturar?** Te lo decimos con el motivo (ticket ilegible, sin datos de facturación, comercio que no factura) para que no lo esperes.
 - **¿Tengo que cambiar algo en mi empresa?** No. Tu equipo sigue pagando igual; nada más manda foto del ticket al grupo de WhatsApp.
-- **¿Hay pago anual?** Sí. Pagas 10 meses y usas 12: Personal $4,990 al año, Empresa $9,990 al año, IVA incluido.
+- **¿Hay pago anual?** Sí. Pagas 10 meses y usas 12: Personal $990 al año, Empresa $4,990 al año, IVA incluido.
 - **¿Cómo pago?** Por transferencia, mensual o anual. Sin contrato ni plazo forzoso.
