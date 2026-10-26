@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#faf9f6">
+<title>Factura tus viáticos por WhatsApp · Ticketo</title>
+<meta name="description" content="Le tomas foto al ticket de gasolina, caseta, comida u hotel y te llega el CFDI 4.0 a nombre de tu empresa, listo para tu reembolso. Plan Personal $99 al mes, hasta 30 tickets. Primera semana gratis.">
+<link rel="canonical" href="https://ticketo.tech/viaticos/">
+<meta name="robots" content="index,follow">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ticketo.tech/viaticos/">
+<meta property="og:title" content="Factura tus viáticos por WhatsApp">
+<meta property="og:description" content="Foto por WhatsApp y te llega el CFDI 4.0 a nombre de tu empresa, listo para tu reembolso. Plan Personal $99 al mes, hasta 30 tickets. Primera semana gratis.">
+<meta property="og:locale" content="es_MX">
+<meta property="og:site_name" content="Ticketo">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f5132'/%3E%3Cpath d='M17 18h30v8H36v22h-8V26H17z' fill='%23fff'/%3E%3C/svg%3E">
+<style>
+:root{--ink:#0e1013;--ink2:#2a2e35;--mut:#5b616b;--line:#e4e1da;--bg:#faf9f6;--card:#fff;--acc:#0f5132;--acc2:#e8f1ec;--serif:Georgia,"Times New Roman",serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{font-family:Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.65;font-size:clamp(16px,1.05vw + 12px,18px);-webkit-font-smoothing:antialiased}
+a{color:var(--acc)}
+:focus-visible{outline:2px solid var(--acc);outline-offset:3px}
+.w{max-width:760px;margin:0 auto;padding:0 clamp(20px,4vw,40px)}
+header{border-bottom:1px solid var(--line);padding:16px 0;background:var(--bg)}
+header .w{display:flex;justify-content:space-between;align-items:center;gap:16px;max-width:1200px}
+.logo{font-family:var(--serif);font-size:24px;color:var(--ink);text-decoration:none;letter-spacing:-.02em}
+.logo span{color:var(--acc)}
+.btn{display:inline-flex;align-items:center;justify-content:center;background:var(--acc);color:#fff;text-decoration:none;padding:12px 20px;border-radius:999px;font-size:15px;font-weight:600;min-height:48px}
+.btn:hover{background:#0b3f27}
+main{padding:clamp(36px,6vw,72px) 0 80px}
+.crumb{font-size:14px;color:var(--mut);margin-bottom:18px}
+.crumb a{color:var(--mut);text-decoration:none}
+.crumb a:hover{color:var(--acc)}
+.kicker{display:inline-block;font-size:13px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--acc);background:var(--acc2);border-radius:99px;padding:6px 12px;margin-bottom:16px}
+h1{font-family:var(--serif);font-weight:400;font-size:clamp(34px,5vw,52px);line-height:1.08;letter-spacing:-.02em;margin-bottom:16px}
+h2{font-family:var(--serif);font-weight:400;font-size:clamp(24px,3vw,32px);line-height:1.2;margin:40px 0 12px}
+.lead{font-size:1.15em;color:var(--ink2);margin-bottom:22px}
+.acts{display:flex;flex-wrap:wrap;gap:12px 18px;align-items:center;margin:8px 0 8px}
+.acts .quiet{color:var(--mut);font-size:15px}
+.grid{display:grid;gap:12px;margin:8px 0 8px}
+@media(min-width:640px){.grid.two{grid-template-columns:1fr 1fr}.grid.three{grid-template-columns:1fr 1fr 1fr}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 18px 16px}
+.card b{display:block;font-size:14px;letter-spacing:.06em;text-transform:uppercase;color:var(--acc);margin-bottom:6px}
+.card p{margin:0;color:var(--ink2)}
+.price{background:var(--card);border:2px solid var(--acc);border-radius:16px;padding:24px 22px;margin-top:8px}
+.amt{font-family:var(--serif);font-size:clamp(48px,8vw,72px);line-height:.95;letter-spacing:-.03em}
+.amt small{font-family:Helvetica,Arial,sans-serif;font-size:16px;color:var(--mut);letter-spacing:0}
+.yr{margin:8px 0 14px;color:var(--mut)}
+.yr b{color:var(--ink)}
+ul.ck{list-style:none;margin:0 0 18px}
+ul.ck li{padding:8px 0 8px 26px;border-top:1px solid var(--line);position:relative}
+ul.ck li:before{content:"";position:absolute;left:4px;top:14px;width:6px;height:11px;border:solid var(--acc);border-width:0 2px 2px 0;transform:rotate(45deg)}
+.note{font-size:15px;color:var(--mut);margin-top:12px}
+ul.plain{margin:0 0 8px;padding-left:22px;color:var(--ink2)}
+ul.plain li{margin-bottom:8px}
+details{border-top:1px solid var(--line);padding:14px 0}
+details:last-child{border-bottom:1px solid var(--line)}
+summary{cursor:pointer;font-weight:600}
+details p{margin:10px 0 0;color:var(--ink2)}
+.cta{margin-top:36px;background:var(--acc);color:#f4f2ed;border-radius:16px;padding:28px 24px}
+.cta h2{color:#fff;margin:0 0 8px}
+.cta p{color:#d7e4dc;margin-bottom:16px}
+.cta .btn{background:#faf9f6;color:var(--ink)}
+.cta .btn:hover{background:#fff}
+footer{border-top:1px solid var(--line);padding:28px 0;font-size:14px;color:var(--mut)}
+footer .w{max-width:1200px;display:flex;gap:8px 22px;flex-wrap:wrap}
+footer a{color:var(--mut);text-decoration:none}
+footer a:hover{color:var(--acc)}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://ticketo.tech/#org",
+      "name": "Ticketo",
+      "url": "https://ticketo.tech/",
+      "description": "Servicio de facturación de tickets de caja chica por WhatsApp para empresas en México.",
+      "areaServed": {"@type": "Country", "name": "México"},
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+52-833-174-0983",
+        "contactType": "customer service",
+        "availableLanguage": "es",
+        "areaServed": "MX",
+        "url": "https://wa.me/528331740983"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://ticketo.tech/viaticos/#page",
+      "url": "https://ticketo.tech/viaticos/",
+      "name": "Factura tus viáticos por WhatsApp",
+      "description": "Le tomas foto al ticket y te llega el CFDI 4.0 a nombre de tu empresa, listo para tu reembolso. Plan Personal $99 al mes, hasta 30 tickets al mes. Primera semana gratis.",
+      "inLanguage": "es-MX",
+      "isPartOf": {"@id": "https://ticketo.tech/#web"},
+      "about": {"@id": "https://ticketo.tech/viaticos/#oferta"},
+      "publisher": {"@id": "https://ticketo.tech/#org"}
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://ticketo.tech/#web",
+      "url": "https://ticketo.tech/",
+      "name": "Ticketo",
+      "inLanguage": "es-MX",
+      "publisher": {"@id": "https://ticketo.tech/#org"}
+    },
+    {
+      "@type": "Offer",
+      "@id": "https://ticketo.tech/viaticos/#oferta",
+      "name": "Plan Personal",
+      "price": "99",
+      "priceCurrency": "MXN",
+      "description": "Hasta 30 tickets al mes. $99 MXN al mes o $990 al año (pagas 10 meses, usas 12). IVA incluido, sin contrato. Primera semana gratis.",
+      "url": "https://ticketo.tech/viaticos/",
+      "availability": "https://schema.org/InStock",
+      "seller": {"@id": "https://ticketo.tech/#org"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Ticketo", "item": "https://ticketo.tech/"},
+        {"@type": "ListItem", "position": 2, "name": "Viáticos", "item": "https://ticketo.tech/viaticos/"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://ticketo.tech/viaticos/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿A nombre de quién va la factura?",
+          "acceptedAnswer": {"@type": "Answer", "text": "A nombre de tu empresa, con el RFC, la razón social, el régimen y el código postal que nos pasas una vez, para que te reembolsen. Si eres independiente, a tu nombre."}
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuántos tickets incluye?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Hasta 30 tickets al mes. Si te pasas, te avisamos."}
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Plan Personal: $99 al mes, o $990 al año (pagas 10 meses y usas 12). IVA incluido, sin contrato. La primera semana es gratis. El pago es por transferencia."}
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo deducir la gasolina si soy asalariado?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Si eres asalariado, la gasolina no la deduces tú. Lo que resuelve Ticketo es el reembolso: la factura va a nombre de tu empresa."}
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué datos me piden?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Solo lo que va en la factura y lo necesario para el servicio: RFC, razón social, régimen, código postal, un correo, tu número de WhatsApp y las fotos de los tickets. Por WhatsApp nunca pedimos e.firma, CIEC, contraseña del SAT, CLABE ni el número de tu tarjeta."}
+        },
+        {
+          "@type": "Question",
+          "name": "¿Y si el ticket no se puede facturar?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Te avisamos el mismo día con el motivo (vencido, ilegible o comercio que no factura). Por eso conviene mandarlo el día que lo generas."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header>
+<div class="w">
+<a class="logo" href="/" aria-label="Ticketo">Ticket<span>o</span></a>
+<a class="btn" href="https://wa.me/528331740983?text=Hola%2C%20quiero%20el%20plan%20Personal%20de%20Ticketo%20%28%2499%20al%20mes%2C%20hasta%2030%20tickets%29.%20Primera%20semana%20gratis.%20Soy%20vendedor%2C%20chofer%20o%20t%C3%A9cnico%20y%20necesito%20la%20factura%20a%20nombre%20de%20mi%20empresa%20para%20el%20reembolso.">Probar gratis</a>
+</div>
+</header>
+<main>
+<div class="w">
+<p class="crumb"><a href="/">Ticketo</a> / Viáticos</p>
+<p class="kicker">Vendedores, choferes y técnicos</p>
+<h1>Factura tus viáticos por WhatsApp</h1>
+<p class="lead">Mándale foto al ticket y olvídate: te llega la factura a nombre de tu empresa, lista para tu reembolso.</p>
+<div class="acts">
+<a class="btn" href="https://wa.me/528331740983?text=Hola%2C%20quiero%20el%20plan%20Personal%20de%20Ticketo%20%28%2499%20al%20mes%2C%20hasta%2030%20tickets%29.%20Primera%20semana%20gratis.%20Soy%20vendedor%2C%20chofer%20o%20t%C3%A9cnico%20y%20necesito%20la%20factura%20a%20nombre%20de%20mi%20empresa%20para%20el%20reembolso.">Escribir por WhatsApp</a>
+<span class="quiet">$99 al mes · hasta 30 tickets · primera semana gratis</span>
+</div>
+
+<h2>Para ti si</h2>
+<ul class="plain">
+<li>Pagas gasolina, casetas, comidas u hotel de tu bolsa.</li>
+<li>Tu empresa te pide la factura para reembolsarte.</li>
+<li>No quieres un portal distinto por cada ticket.</li>
+</ul>
+
+<h2>Cómo funciona</h2>
+<div class="grid">
+<article class="card"><b>1 · Foto</b><p>Le tomas foto al ticket (gasolina, caseta, comida, hotel) y nos lo mandas por WhatsApp. Es un chat contigo, no un grupo de equipo.</p></article>
+<article class="card"><b>2 · Factura</b><p>Te regresamos el CFDI 4.0 en PDF y XML, a nombre de tu empresa. Si eres independiente, a tu nombre. Normalmente en menos de 48 horas hábiles.</p></article>
+<article class="card"><b>3 · Reembolso</b><p>La hoja de gastos del mes queda en Google Sheets, lista para entregarla en la oficina.</p></article>
+</div>
+<p class="note">Si el ticket no se puede facturar (vencido, ilegible o el comercio no factura), te avisamos el mismo día.</p>
+
+<h2>Precio</h2>
+<div class="price">
+<div class="kicker">Plan Personal</div>
+<div class="amt">$99 <small>MXN al mes</small></div>
+<p class="yr">o <b>$990 al año</b>: pagas 10 meses, usas 12</p>
+<ul class="ck">
+<li><b>Hasta 30 tickets al mes</b></li>
+<li>1 razón social</li>
+<li>CFDI 4.0 en PDF y XML</li>
+<li>Hoja de gastos del mes</li>
+<li>Primera semana gratis, sin contrato</li>
+<li>IVA incluido · pago por transferencia</li>
+</ul>
+<a class="btn" href="https://wa.me/528331740983?text=Hola%2C%20quiero%20el%20plan%20Personal%20de%20Ticketo%20%28%2499%20al%20mes%2C%20hasta%2030%20tickets%29.%20Primera%20semana%20gratis.%20Soy%20vendedor%2C%20chofer%20o%20t%C3%A9cnico%20y%20necesito%20la%20factura%20a%20nombre%20de%20mi%20empresa%20para%20el%20reembolso.">Quiero la semana gratis</a>
+<p class="note">Si en el mes te pasas de 30 tickets, te avisamos.</p>
+</div>
+
+<h2>Qué pedimos</h2>
+<p>Una sola vez: RFC, razón social, régimen, código postal, el correo donde quieres las facturas, tu número de WhatsApp y las fotos de los tickets. Por WhatsApp nunca pedimos tu e.firma, tu CIEC, tu contraseña del SAT, tu CLABE ni el número de tu tarjeta.</p>
+
+<h2 id="faq">Preguntas</h2>
+<details>
+<summary>¿A nombre de quién va la factura?</summary>
+<p>A nombre de tu empresa, con el RFC, la razón social, el régimen y el código postal que nos pasas una vez, para que te reembolsen. Si eres independiente, a tu nombre.</p>
+</details>
+<details>
+<summary>¿Cuántos tickets incluye?</summary>
+<p>Hasta 30 tickets al mes. Si te pasas, te avisamos.</p>
+</details>
+<details>
+<summary>¿Cuánto cuesta?</summary>
+<p>Plan Personal: $99 al mes, o $990 al año (pagas 10 meses y usas 12). IVA incluido, sin contrato. La primera semana es gratis. El pago es por transferencia.</p>
+</details>
+<details>
+<summary>¿Puedo deducir la gasolina si soy asalariado?</summary>
+<p>Si eres asalariado, la gasolina no la deduces tú. Lo que resuelve Ticketo es el reembolso: la factura va a nombre de tu empresa.</p>
+</details>
+<details>
+<summary>¿Qué datos me piden?</summary>
+<p>Solo lo que va en la factura y lo necesario para el servicio: RFC, razón social, régimen, código postal, un correo, tu número de WhatsApp y las fotos de los tickets. Por WhatsApp nunca pedimos e.firma, CIEC, contraseña del SAT, CLABE ni el número de tu tarjeta.</p>
+</details>
+<details>
+<summary>¿Y si el ticket no se puede facturar?</summary>
+<p>Te avisamos el mismo día con el motivo (vencido, ilegible o comercio que no factura). Por eso conviene mandarlo el día que lo generas.</p>
+</details>
+
+<p class="note">Si lo necesita todo tu equipo, el plan Empresa está en <a href="/#precio">precios</a>.</p>
+<h2>Guías</h2>
+<ul class="plain">
+<li><a href="/guias/existe-servicio-facturar-tickets/">¿Existe algún servicio para que facturen mis tickets?</a></li>
+<li><a href="/guias/facturar-tickets-por-whatsapp/">Cómo facturar tickets por WhatsApp</a></li>
+<li><a href="/guias/cuanto-cuesta-facturar-tickets-mexico/">Cuánto cuesta facturar tickets en México</a></li>
+</ul>
+
+<div class="cta">
+<h2>Mándanos la foto.</h2>
+<p>$99 al mes, hasta 30 tickets al mes, primera semana gratis.</p>
+<a class="btn" href="https://wa.me/528331740983?text=Hola%2C%20quiero%20el%20plan%20Personal%20de%20Ticketo%20%28%2499%20al%20mes%2C%20hasta%2030%20tickets%29.%20Primera%20semana%20gratis.%20Soy%20vendedor%2C%20chofer%20o%20t%C3%A9cnico%20y%20necesito%20la%20factura%20a%20nombre%20de%20mi%20empresa%20para%20el%20reembolso.">Escribir por WhatsApp</a>
+</div>
+</div>
+</main>
+<footer>
+<div class="w">
+<span>Ticketo · Facturas de caja chica</span>
+<a href="/">Inicio</a>
+<a href="/viaticos/">Viáticos</a>
+<a href="/#precio">Precio</a>
+<a href="/#faq">Preguntas frecuentes</a>
+<a href="/guias/">Guías</a>
+<a href="/guias/existe-servicio-facturar-tickets/">¿Existe un servicio?</a>
+<a href="/guias/facturar-tickets-por-whatsapp/">Por WhatsApp</a>
+<a href="/guias/cuanto-cuesta-facturar-tickets-mexico/">Cuánto cuesta</a>
+<a href="https://wa.me/528331740983">WhatsApp 833 174 0983</a><a href="/aviso-privacidad/">Aviso de privacidad</a><a href="/terminos/">Términos</a>
+</div>
+</footer>
+</body>
+</html>
