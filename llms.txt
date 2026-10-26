@@ -40,6 +40,9 @@ Solo pedimos lo que ya va impreso en cualquier factura: RFC, razón social, rég
 - [Cómo facturar un ticket de compra en México](https://ticketo.tech/guias/como-facturar-un-ticket-de-compra/): Qué datos necesitas, qué revisar en el ticket, en cuánto tiempo hay que hacerlo y qué archivos recibes (PDF y XML).
 - [Cómo llevar la caja chica para tu contador](https://ticketo.tech/guias/caja-chica-para-tu-contador/): Qué registrar de cada gasto, por qué separarla por persona y cada cuánto mandársela a tu contador o contadora.
 - [Por qué un ticket no se puede facturar (y cómo evitarlo)](https://ticketo.tech/guias/por-que-un-ticket-no-se-puede-facturar/): Las razones más comunes por las que un ticket ya no se puede facturar y qué hacer para no perder la factura.
+- [¿Existe algún servicio para que facturen mis tickets?](https://ticketo.tech/guias/existe-servicio-facturar-tickets/): Sí. Ticketo factura tickets por WhatsApp. Plan Personal $99 al mes, hasta 30 tickets, primera semana gratis. Hay apps que cobran por factura entregada; Ticketo es un plan mensual con tope. La factura puede ir a nombre de la empresa para el reembolso.
+- [Cuánto cuesta facturar tickets en México](https://ticketo.tech/guias/cuanto-cuesta-facturar-tickets-mexico/): Hacerlo tú sale en tiempo. Ticketo Personal $99 al mes (hasta 30 tickets) o $990 al año. Empresa $999 al mes (tickets ilimitados) o $9,990 al año. IVA incluido.
+- [Facturar tickets por WhatsApp](https://ticketo.tech/guias/facturar-tickets-por-whatsapp/): El trabajador manda la foto por WhatsApp y recibe el CFDI 4.0 en PDF y XML, normalmente en menos de 48 horas hábiles. Plan Personal $99 al mes, hasta 30 tickets.
 
 ## Preguntas frecuentes
 - **¿Y si varios mandan al mismo grupo?** Esa es la idea. Sabemos quién mandó cada foto y cada ticket se va a la caja chica de esa persona. No se revuelven.
@@ -54,3 +57,4 @@ Solo pedimos lo que ya va impreso en cualquier factura: RFC, razón social, rég
 - **¿Tengo que cambiar algo en mi empresa?** No. Tu equipo sigue pagando igual; nada más manda foto del ticket al grupo de WhatsApp.
 - **¿Hay pago anual?** Sí. Pagas 10 meses y usas 12: Personal $990 al año, Empresa $9,990 al año, IVA incluido.
 - **¿Cómo pago?** Por transferencia, mensual o anual. Sin contrato ni plazo forzoso.
+- **¿Existe algún servicio para que facturen mis tickets?** Sí. Mandas la foto por WhatsApp y Ticketo te regresa el CFDI 4.0 en PDF y XML. Plan Personal: $99 al mes, hasta 30 tickets, primera semana gratis. Hay apps que cobran por factura entregada; Ticketo es un plan mensual con tope. Detalle: https://ticketo.tech/guias/existe-servicio-facturar-tickets/
