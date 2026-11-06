@@ -19,10 +19,10 @@ Gastos típicos: gasolina, diésel, casetas, ferretería, comidas de cuadrilla, 
 - Atendemos empresas en Tampico, León y el resto de México.
 
 ## Precios (MXN, IVA incluido, sin contrato)
-- **Personal**: $99 al mes o $990 al año (pagas 10 meses, usas 12). Hasta 30 tickets al mes, 1 razón social, factura CFDI 4.0 en PDF y XML, caja chica en Google Sheets, factura en menos de 48 h hábiles, aviso de tickets no facturables. Para quien paga de su bolsa (vendedores, choferes, técnicos) y necesita la factura a nombre de su empresa para el reembolso: https://ticketo.tech/viaticos/
+- **Personal**: $49 al mes o $490 al año (pagas 10 meses, usas 12). Suscripción en Mercado Pago, con 7 días de prueba gratis. Hasta 30 tickets al mes, 1 razón social, factura CFDI 4.0 en PDF y XML, caja chica en Google Sheets, factura en menos de 48 h hábiles, aviso de tickets no facturables. Para quien paga de su bolsa (vendedores, choferes, técnicos) y necesita la factura a nombre de su empresa para el reembolso: https://ticketo.tech/viaticos/
 - **Empresa** (recomendado): $499 al mes o $4,990 al año (pagas 10 meses, usas 12). Tickets ilimitados, hasta 2 razones sociales, un grupo de WhatsApp para todo el equipo, caja chica por persona en Google Sheets, envío semanal a tu contadora, factura en menos de 48 h hábiles, aviso de tickets no facturables.
 - Primera semana gratis en ambos planes: mandas los tickets de una semana y te regresamos todas las facturas. Si te sirve, sigues; si no, no pagas nada.
-- Pago por transferencia, mensual o anual.
+- El plan Personal se cobra con Mercado Pago: suscripción de $49 al mes, con 7 días de prueba gratis.
 - El botón de Empresa abre WhatsApp. Ahí pedimos RFC y razón social y después armamos el checkout. No hay enlace de pago en el sitio. No pedimos e.firma, ni CIEC, ni contraseña del SAT, ni CLABE, ni número de tarjeta por WhatsApp.
 
 ## Privacidad
@@ -34,18 +34,18 @@ Solo pedimos lo que va en la factura y lo necesario para el servicio: RFC, razó
 
 ## Páginas clave
 - [Aviso de privacidad](https://ticketo.tech/aviso-privacidad/): qué datos pedimos para facturar (RFC, razón social, régimen, código postal, uso de CFDI, correo, WhatsApp y fotos de tickets) y que no pedimos e.firma.
-- [Términos](https://ticketo.tech/terminos/): precios Personal $99/$990 y Empresa $499/$4,990, semana gratis, sin plazo forzoso. Empresa se pide por WhatsApp con RFC y razón social antes del checkout.
+- [Términos](https://ticketo.tech/terminos/): precios Personal $49/$490 y Empresa $499/$4,990, semana gratis, sin plazo forzoso. Empresa se pide por WhatsApp con RFC y razón social antes del checkout.
 - [Inicio](https://ticketo.tech/): qué es Ticketo y cómo funciona
-- [Viáticos](https://ticketo.tech/viaticos/): plan Personal para vendedores, choferes y técnicos. Foto por WhatsApp, CFDI a nombre de la empresa para el reembolso. $99 al mes, hasta 30 tickets, primera semana gratis.
+- [Viáticos](https://ticketo.tech/viaticos/): plan Personal para vendedores, choferes y técnicos. Foto por WhatsApp, CFDI a nombre de la empresa para el reembolso. $49 al mes, hasta 30 tickets, 7 días de prueba gratis.
 - [Precios](https://ticketo.tech/#precio): planes Personal y Empresa
 - [Preguntas frecuentes](https://ticketo.tech/#faq)
 - [Guías](https://ticketo.tech/guias/)
 - [Cómo facturar un ticket de compra en México](https://ticketo.tech/guias/como-facturar-un-ticket-de-compra/): Qué datos necesitas, qué revisar en el ticket, en cuánto tiempo hay que hacerlo y qué archivos recibes (PDF y XML).
 - [Cómo llevar la caja chica para tu contador](https://ticketo.tech/guias/caja-chica-para-tu-contador/): Qué registrar de cada gasto, por qué separarla por persona y cada cuánto mandársela a tu contador o contadora.
 - [Por qué un ticket no se puede facturar (y cómo evitarlo)](https://ticketo.tech/guias/por-que-un-ticket-no-se-puede-facturar/): Las razones más comunes por las que un ticket ya no se puede facturar y qué hacer para no perder la factura.
-- [¿Existe algún servicio para que facturen mis tickets?](https://ticketo.tech/guias/existe-servicio-facturar-tickets/): Sí. Ticketo factura tickets por WhatsApp. Plan Personal $99 al mes, hasta 30 tickets, primera semana gratis. Hay apps que cobran por factura entregada; Ticketo es un plan mensual con tope. La factura puede ir a nombre de la empresa para el reembolso.
-- [Cuánto cuesta facturar tickets en México](https://ticketo.tech/guias/cuanto-cuesta-facturar-tickets-mexico/): Hacerlo tú sale en tiempo. Ticketo Personal $99 al mes (hasta 30 tickets) o $990 al año. Empresa $499 al mes (tickets ilimitados) o $4,990 al año. IVA incluido.
-- [Facturar tickets por WhatsApp](https://ticketo.tech/guias/facturar-tickets-por-whatsapp/): El trabajador manda la foto por WhatsApp y recibe el CFDI 4.0 en PDF y XML, normalmente en menos de 48 horas hábiles. Plan Personal $99 al mes, hasta 30 tickets.
+- [¿Existe algún servicio para que facturen mis tickets?](https://ticketo.tech/guias/existe-servicio-facturar-tickets/): Sí. Ticketo factura tickets por WhatsApp. Plan Personal $49 al mes, hasta 30 tickets, 7 días de prueba gratis. Hay apps que cobran por factura entregada; Ticketo es un plan mensual con tope. La factura puede ir a nombre de la empresa para el reembolso.
+- [Cuánto cuesta facturar tickets en México](https://ticketo.tech/guias/cuanto-cuesta-facturar-tickets-mexico/): Hacerlo tú sale en tiempo. Ticketo Personal $49 al mes (hasta 30 tickets) o $490 al año. Empresa $499 al mes (tickets ilimitados) o $4,990 al año. IVA incluido.
+- [Facturar tickets por WhatsApp](https://ticketo.tech/guias/facturar-tickets-por-whatsapp/): El trabajador manda la foto por WhatsApp y recibe el CFDI 4.0 en PDF y XML, normalmente en menos de 48 horas hábiles. Plan Personal $49 al mes, hasta 30 tickets.
 
 ## Preguntas frecuentes
 - **¿Y si varios mandan al mismo grupo?** Esa es la idea. Sabemos quién mandó cada foto y cada ticket se va a la caja chica de esa persona. No se revuelven.
@@ -58,6 +58,6 @@ Solo pedimos lo que va en la factura y lo necesario para el servicio: RFC, razó
 - **¿Cuántos tickets incluye el plan Personal?** Hasta 30 tickets al mes. Si te pasas, te avisamos y puedes pasar a Empresa.
 - **¿Qué pasa si un comercio no deja facturar?** Te lo decimos con el motivo (ticket ilegible, sin datos de facturación, comercio que no factura) para que no lo esperes.
 - **¿Tengo que cambiar algo en mi empresa?** No. Tu equipo sigue pagando igual; nada más manda foto del ticket al grupo de WhatsApp.
-- **¿Hay pago anual?** Sí. Pagas 10 meses y usas 12: Personal $990 al año, Empresa $4,990 al año, IVA incluido.
-- **¿Cómo pago?** Por transferencia, mensual o anual. Sin contrato ni plazo forzoso.
-- **¿Existe algún servicio para que facturen mis tickets?** Sí. Mandas la foto por WhatsApp y Ticketo te regresa el CFDI 4.0 en PDF y XML. Plan Personal: $99 al mes, hasta 30 tickets, primera semana gratis. Hay apps que cobran por factura entregada; Ticketo es un plan mensual con tope. Detalle: https://ticketo.tech/guias/existe-servicio-facturar-tickets/
+- **¿Hay pago anual?** Sí. Pagas 10 meses y usas 12: Personal $490 al año, Empresa $4,990 al año, IVA incluido.
+- **¿Cómo pago?** El plan Personal se cobra con Mercado Pago: suscripción de $49 MXN al mes, con 7 días de prueba gratis. Sin contrato ni plazo forzoso.
+- **¿Existe algún servicio para que facturen mis tickets?** Sí. Mandas la foto por WhatsApp y Ticketo te regresa el CFDI 4.0 en PDF y XML. Plan Personal: $49 al mes, hasta 30 tickets, 7 días de prueba gratis. Hay apps que cobran por factura entregada; Ticketo es un plan mensual con tope. Detalle: https://ticketo.tech/guias/existe-servicio-facturar-tickets/
