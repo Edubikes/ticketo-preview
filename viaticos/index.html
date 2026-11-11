@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#faf9f6">
 <title>Factura tus viáticos por WhatsApp · Ticketo</title>
-<meta name="description" content="Le tomas foto al ticket de gasolina, caseta, comida u hotel y te llega el CFDI 4.0 a nombre de tu empresa, listo para tu reembolso. Plan Personal $49 al mes, hasta 30 tickets. 7 días de prueba gratis.">
+<meta name="description" content="Le tomas foto al ticket de gasolina, comida u hotel y te llega el CFDI 4.0 a nombre de tu empresa, listo para tu reembolso. Plan Personal $49 al mes, hasta 30 tickets. 7 días de prueba gratis.">
 <link rel="canonical" href="https://ticketo.tech/viaticos/">
 <meta name="robots" content="index,follow">
 <meta property="og:type" content="website">
@@ -145,7 +145,7 @@ footer a:hover{color:var(--acc)}
         {
           "@type": "Question",
           "name": "¿Cuánto cuesta?",
-          "acceptedAnswer": {"@type": "Answer", "text": "Plan Personal: $49 al mes, o $490 al año (pagas 10 meses y usas 12). IVA incluido, sin contrato. 7 días de prueba gratis. El pago es con Mercado Pago."}
+          "acceptedAnswer": {"@type": "Answer", "text": "Plan Personal: $49 al mes, o $490 al año (pagas 10 meses y usas 12). IVA incluido, sin contrato. 7 días gratis: la tarjeta la pones en Mercado Pago, no con nosotros, y el primer cobro de $49 es el día 8. Cancelas cuando quieras."}
         },
         {
           "@type": "Question",
@@ -172,7 +172,7 @@ footer a:hover{color:var(--acc)}
 <header>
 <div class="w">
 <a class="logo" href="/" aria-label="Ticketo">Ticket<span>o</span></a>
-<a class="btn" href="https://wa.me/528331740983?text=Hola%2C%20quiero%20el%20plan%20Personal%20de%20Ticketo%20%28%2449%20al%20mes%2C%20hasta%2030%20tickets%29.%207%20d%C3%ADas%20de%20prueba%20gratis.%20Soy%20vendedor%2C%20chofer%20o%20t%C3%A9cnico%20y%20necesito%20la%20factura%20a%20nombre%20de%20mi%20empresa%20para%20el%20reembolso.">Probar gratis</a>
+<a data-ref="viaticos-header" class="btn" href="https://wa.me/528331740983?text=Hola%2C%20quiero%20el%20plan%20Personal%20de%20Ticketo%20%28%2449%20al%20mes%2C%20hasta%2030%20tickets%29.%207%20d%C3%ADas%20de%20prueba%20gratis.%20Soy%20vendedor%2C%20chofer%20o%20t%C3%A9cnico%20y%20necesito%20la%20factura%20a%20nombre%20de%20mi%20empresa%20para%20el%20reembolso.%20%28ref%3A%20viaticos-header%29">Probar gratis</a>
 </div>
 </header>
 <main>
@@ -182,20 +182,20 @@ footer a:hover{color:var(--acc)}
 <h1>Factura tus viáticos por WhatsApp</h1>
 <p class="lead">Mándale foto al ticket y olvídate: te llega la factura a nombre de tu empresa, lista para tu reembolso.</p>
 <div class="acts">
-<a class="btn" href="https://wa.me/528331740983?text=Hola%2C%20quiero%20el%20plan%20Personal%20de%20Ticketo%20%28%2449%20al%20mes%2C%20hasta%2030%20tickets%29.%207%20d%C3%ADas%20de%20prueba%20gratis.%20Soy%20vendedor%2C%20chofer%20o%20t%C3%A9cnico%20y%20necesito%20la%20factura%20a%20nombre%20de%20mi%20empresa%20para%20el%20reembolso.">Escribir por WhatsApp</a>
+<a data-ref="viaticos-hero" class="btn" href="https://wa.me/528331740983?text=Hola%2C%20quiero%20el%20plan%20Personal%20de%20Ticketo%20%28%2449%20al%20mes%2C%20hasta%2030%20tickets%29.%207%20d%C3%ADas%20de%20prueba%20gratis.%20Soy%20vendedor%2C%20chofer%20o%20t%C3%A9cnico%20y%20necesito%20la%20factura%20a%20nombre%20de%20mi%20empresa%20para%20el%20reembolso.%20%28ref%3A%20viaticos-hero%29">Escribir por WhatsApp</a>
 <span class="quiet">$49 al mes · hasta 30 tickets · 7 días de prueba gratis</span>
 </div>
 
 <h2>Para ti si</h2>
 <ul class="plain">
-<li>Pagas gasolina, casetas, comidas u hotel de tu bolsa.</li>
+<li>Pagas gasolina, comidas u hotel de tu bolsa. Casetas, en validación.</li>
 <li>Tu empresa te pide la factura para reembolsarte.</li>
 <li>No quieres un portal distinto por cada ticket.</li>
 </ul>
 
 <h2>Cómo funciona</h2>
 <div class="grid">
-<article class="card"><b>1 · Foto</b><p>Le tomas foto al ticket (gasolina, caseta, comida, hotel) y nos lo mandas por WhatsApp. Es un chat contigo, no un grupo de equipo.</p></article>
+<article class="card"><b>1 · Foto</b><p>Le tomas foto al ticket (gasolina, comida, hotel) y nos lo mandas por WhatsApp. Casetas, en validación. Es un chat contigo, no un grupo de equipo.</p></article>
 <article class="card"><b>2 · Factura</b><p>Te regresamos el CFDI 4.0 en PDF y XML, a nombre de tu empresa. Si eres independiente, a tu nombre. Normalmente en menos de 48 horas hábiles.</p></article>
 <article class="card"><b>3 · Reembolso</b><p>La hoja de gastos del mes queda en Google Sheets, lista para entregarla en la oficina.</p></article>
 </div>
@@ -214,7 +214,8 @@ footer a:hover{color:var(--acc)}
 <li>7 días de prueba gratis, sin contrato</li>
 <li>IVA incluido · suscripción en Mercado Pago</li>
 </ul>
-<a class="btn" href="https://wa.me/528331740983?text=Hola%2C%20quiero%20el%20plan%20Personal%20de%20Ticketo%20%28%2449%20al%20mes%2C%20hasta%2030%20tickets%29.%207%20d%C3%ADas%20de%20prueba%20gratis.%20Soy%20vendedor%2C%20chofer%20o%20t%C3%A9cnico%20y%20necesito%20la%20factura%20a%20nombre%20de%20mi%20empresa%20para%20el%20reembolso.">Quiero los 7 días gratis</a>
+<a data-ref="viaticos-precio" class="btn" href="https://wa.me/528331740983?text=Hola%2C%20quiero%20el%20plan%20Personal%20de%20Ticketo%20%28%2449%20al%20mes%2C%20hasta%2030%20tickets%29.%207%20d%C3%ADas%20de%20prueba%20gratis.%20Soy%20vendedor%2C%20chofer%20o%20t%C3%A9cnico%20y%20necesito%20la%20factura%20a%20nombre%20de%20mi%20empresa%20para%20el%20reembolso.%20%28ref%3A%20viaticos-precio%29">Quiero los 7 días gratis</a>
+<p class="note">7 días gratis. La tarjeta la pones en Mercado Pago, no con nosotros. El primer cobro de $49 es el día 8. Cancelas cuando quieras.</p>
 <p class="note">Si en el mes te pasas de 30 tickets, te avisamos.</p>
 </div>
 
@@ -232,7 +233,7 @@ footer a:hover{color:var(--acc)}
 </details>
 <details>
 <summary>¿Cuánto cuesta?</summary>
-<p>Plan Personal: $49 al mes, o $490 al año (pagas 10 meses y usas 12). IVA incluido, sin contrato. 7 días de prueba gratis. El pago es con Mercado Pago.</p>
+<p>Plan Personal: $49 al mes, o $490 al año (pagas 10 meses y usas 12). IVA incluido, sin contrato. 7 días gratis: la tarjeta la pones en Mercado Pago, no con nosotros, y el primer cobro de $49 es el día 8. Cancelas cuando quieras.</p>
 </details>
 <details>
 <summary>¿Puedo deducir la gasolina si soy asalariado?</summary>
@@ -258,7 +259,7 @@ footer a:hover{color:var(--acc)}
 <div class="cta">
 <h2>Mándanos la foto.</h2>
 <p>$49 al mes, hasta 30 tickets al mes, 7 días de prueba gratis.</p>
-<a class="btn" href="https://wa.me/528331740983?text=Hola%2C%20quiero%20el%20plan%20Personal%20de%20Ticketo%20%28%2449%20al%20mes%2C%20hasta%2030%20tickets%29.%207%20d%C3%ADas%20de%20prueba%20gratis.%20Soy%20vendedor%2C%20chofer%20o%20t%C3%A9cnico%20y%20necesito%20la%20factura%20a%20nombre%20de%20mi%20empresa%20para%20el%20reembolso.">Escribir por WhatsApp</a>
+<a data-ref="viaticos-cierre" class="btn" href="https://wa.me/528331740983?text=Hola%2C%20quiero%20el%20plan%20Personal%20de%20Ticketo%20%28%2449%20al%20mes%2C%20hasta%2030%20tickets%29.%207%20d%C3%ADas%20de%20prueba%20gratis.%20Soy%20vendedor%2C%20chofer%20o%20t%C3%A9cnico%20y%20necesito%20la%20factura%20a%20nombre%20de%20mi%20empresa%20para%20el%20reembolso.%20%28ref%3A%20viaticos-cierre%29">Escribir por WhatsApp</a>
 </div>
 </div>
 </main>
@@ -273,8 +274,8 @@ footer a:hover{color:var(--acc)}
 <a href="/guias/existe-servicio-facturar-tickets/">¿Existe un servicio?</a>
 <a href="/guias/facturar-tickets-por-whatsapp/">Por WhatsApp</a>
 <a href="/guias/cuanto-cuesta-facturar-tickets-mexico/">Cuánto cuesta</a>
-<a href="https://wa.me/528331740983">WhatsApp 833 174 0983</a><a href="/aviso-privacidad/">Aviso de privacidad</a><a href="/terminos/">Términos</a>
+<a data-ref="viaticos-pie" href="https://wa.me/528331740983?text=Hola%20%28ref%3A%20viaticos-pie%29">WhatsApp 833 174 0983</a><a href="/aviso-privacidad/">Aviso de privacidad</a><a href="/terminos/">Términos</a>
 </div>
 </footer>
-<div class="mbar"><a class="btn" href="https://wa.me/528331740983?text=Hola%2C%20quiero%20probar%20la%20semana%20gratis%20de%20facturas%20de%20caja%20chica"><span>Probar gratis por WhatsApp</span></a></div></body>
+<div class="mbar"><a data-ref="viaticos-barra" class="btn" href="https://wa.me/528331740983?text=Hola%2C%20quiero%20el%20plan%20Personal%20de%20Ticketo%20%28%2449%20al%20mes%2C%20hasta%2030%20tickets%29.%207%20d%C3%ADas%20de%20prueba%20gratis.%20Soy%20vendedor%2C%20chofer%20o%20t%C3%A9cnico%20y%20necesito%20la%20factura%20a%20nombre%20de%20mi%20empresa%20para%20el%20reembolso.%20%28ref%3A%20viaticos-barra%29"><span>Probar gratis por WhatsApp</span></a></div></body>
 </html>
