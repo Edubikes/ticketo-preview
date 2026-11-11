@@ -9,11 +9,11 @@
 4. El viernes se manda la hoja de cada persona a tu contadora, o antes si la pides en el grupo.
 5. Si un ticket ya venció o el comercio no factura, te avisamos el mismo día con el motivo.
 
-Gastos típicos: gasolina, diésel, casetas, ferretería, comidas de cuadrilla, viáticos, papelería y restaurantes.
+Gastos típicos: gasolina, diésel, ferretería, comidas de cuadrilla, viáticos, papelería y restaurantes. Casetas, en validación.
 
 ## Para quién es
 - Constructoras (gasolina, material de ferretería, comidas de cuadrillas)
-- Transporte y logística (diésel, casetas, viáticos de operadores en ruta)
+- Transporte y logística (diésel y viáticos de operadores en ruta; casetas, en validación)
 - Servicios de campo (técnicos que se mueven todo el día)
 - Despachos contables (clientes que llegan con una bolsa de tickets a fin de mes)
 - Atendemos empresas en Tampico, León y el resto de México.
@@ -21,8 +21,7 @@ Gastos típicos: gasolina, diésel, casetas, ferretería, comidas de cuadrilla, 
 ## Precios (MXN, IVA incluido, sin contrato)
 - **Personal**: $49 al mes o $490 al año (pagas 10 meses, usas 12). Suscripción en Mercado Pago, con 7 días de prueba gratis. Hasta 30 tickets al mes, 1 razón social, factura CFDI 4.0 en PDF y XML, caja chica en Google Sheets, factura en menos de 48 h hábiles, aviso de tickets no facturables. Para quien paga de su bolsa (vendedores, choferes, técnicos) y necesita la factura a nombre de su empresa para el reembolso: https://ticketo.tech/viaticos/
 - **Empresa** (recomendado): $499 al mes o $4,990 al año (pagas 10 meses, usas 12). Tickets ilimitados, hasta 2 razones sociales, un grupo de WhatsApp para todo el equipo, caja chica por persona en Google Sheets, envío semanal a tu contadora, factura en menos de 48 h hábiles, aviso de tickets no facturables.
-- Primera semana gratis en ambos planes: mandas los tickets de una semana y te regresamos todas las facturas. Si te sirve, sigues; si no, no pagas nada.
-- El plan Personal se cobra con Mercado Pago: suscripción de $49 al mes, con 7 días de prueba gratis.
+- Primera semana: Personal son 7 días gratis en la suscripción de Mercado Pago. La tarjeta se ingresa en Mercado Pago, no con Ticketo. El primer cobro de $49 es el día 8. Cancelas cuando quieras. Empresa es una semana gratis sin tarjeta. Si sigues, por WhatsApp se piden RFC y razón social y con eso se arma el checkout ($499 al mes o $4,990 al año).
 - El botón de Empresa abre WhatsApp. Ahí pedimos RFC y razón social y después armamos el checkout. No hay enlace de pago en el sitio. No pedimos e.firma, ni CIEC, ni contraseña del SAT, ni CLABE, ni número de tarjeta por WhatsApp.
 
 ## Privacidad
@@ -59,5 +58,5 @@ Solo pedimos lo que va en la factura y lo necesario para el servicio: RFC, razó
 - **¿Qué pasa si un comercio no deja facturar?** Te lo decimos con el motivo (ticket ilegible, sin datos de facturación, comercio que no factura) para que no lo esperes.
 - **¿Tengo que cambiar algo en mi empresa?** No. Tu equipo sigue pagando igual; nada más manda foto del ticket al grupo de WhatsApp.
 - **¿Hay pago anual?** Sí. Pagas 10 meses y usas 12: Personal $490 al año, Empresa $4,990 al año, IVA incluido.
-- **¿Cómo pago?** El plan Personal se cobra con Mercado Pago: suscripción de $49 MXN al mes, con 7 días de prueba gratis. Sin contrato ni plazo forzoso.
+- **¿Cómo pago?** Personal: suscripción de $49 MXN al mes en Mercado Pago, con 7 días gratis. La tarjeta la pones en Mercado Pago, no con nosotros. El primer cobro de $49 es el día 8. Cancelas cuando quieras, sin contrato ni plazo forzoso. Empresa: semana gratis, sin tarjeta. Si sigues, nos pasas RFC y razón social por WhatsApp y con eso armamos el checkout: $499 al mes, o $4,990 al año (pagas 10 meses y usas 12).
 - **¿Existe algún servicio para que facturen mis tickets?** Sí. Mandas la foto por WhatsApp y Ticketo te regresa el CFDI 4.0 en PDF y XML. Plan Personal: $49 al mes, hasta 30 tickets, 7 días de prueba gratis. Hay apps que cobran por factura entregada; Ticketo es un plan mensual con tope. Detalle: https://ticketo.tech/guias/existe-servicio-facturar-tickets/
